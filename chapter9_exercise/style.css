@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+main{
+	width: 960px;
+	margin: 50px auto;
+}
+.box{
+	width: 300px;
+	padding: 10px;
+	float: left;
+	margin-right: 30px;
+	position: relative;
+	border :1px solid #C0C0C0;
+}
+.step{
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #FFF;
+	background-color: #FF9900;
+}
+.item{
+	width: 280px;
+	height: 150px;
+	background-position: bottom;
+	background-size:cover;
+}
+.text{
+	width: 280px;
+}
+.box:last-child{
+	margin-right: 0;
+}
