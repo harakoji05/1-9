@@ -27,9 +27,24 @@ main{
 	color: #FFF;
 	background-color: #FF9900;
 }
-.item{
+.item1{
 	width: 280px;
 	height: 150px;
+	background-image: url(img/flow01.png);
+	background-position: bottom;
+	background-size:cover;
+}
+.item2{
+	width: 280px;
+	height: 150px;
+	background-image: url(img/flow02.png);
+	background-position: bottom;
+	background-size:cover;
+}
+.item3{
+	width: 280px;
+	height: 150px;
+	background-image: url(img/flow03.png);
 	background-position: bottom;
 	background-size:cover;
 }
